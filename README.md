@@ -13,7 +13,7 @@ Getting started:
 The user will need to download ArcGIS Desktop 10.8.1. to excecute the code, relying on "ArcPy" to programmatically run all ArcGIS standard geoprocessing tools and provides helper functions and classes. In particular, this project relies on the Spatial Analyst module, arcpy.sa, to analyze raster and vector data with the functionality provided by the ArcGIS Spatial Analyst extension. The script calls upon local folders wherein the user stores their AOI polygon, output spatial reference, empty folder and directory of CIS charts they aim to interpret (obtained from https://www.canada.ca/en/environment-climate-change/services/ice-forecasts-observations/latest-conditions/archive-overview.html). 
 
 How to use the project: 
-The user can use this script to interpret information available with CIS's ice charts within a polygon delineated by the user's area of interest. The project is highly adaptable and users can edit the script to interpret their desired CIS values and the method used to statistically summarize those values within their AOI. 
+The user can use this script to interpret information available with CIS's ice charts within a polygon delineated by the user. The project is highly adaptable and users can edit the script to interpret and summarize their desired CIS values. 
 
 Credits: Script built by Benoit MonPetit (ECCC) and Emmelie Paquette (Carleton University). Used in MSc disseration supervised by Gita Ljubicic (McMaster University), Cheryl Johnson (ECCC), Derek Mueller (Carleton University) and Simon Okpakok (Independant researcher, Gjoa Haven, NU).
 
